@@ -1,0 +1,22 @@
+{
+    "name": "halloverden/symfony-oidc-contracts",
+    "description": "Contracts for HalloVerden OpenID Connect",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tom Roar Furunes",
+            "email": "tom.roar@halloverden.no"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "HalloVerden\\Contracts\\OIDC\\": "src"
+        }
+    }
+}
