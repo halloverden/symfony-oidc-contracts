@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "HalloVerden\\Contracts\\OIDC\\": "src"
+            "HalloVerden\\Contracts\\Oidc\\": "src"
         }
     }
 }
