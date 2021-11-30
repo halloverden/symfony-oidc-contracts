@@ -7,6 +7,8 @@ namespace HalloVerden\Contracts\Oidc\Requests;
  * Interface OidcAuthenticationRequestInterface
  *
  * @package HalloVerden\Contracts\Oidc\Requests
+ *
+ * @method string|null getCodeVerifier()
  */
 interface OidcAuthenticationRequestInterface {
 
