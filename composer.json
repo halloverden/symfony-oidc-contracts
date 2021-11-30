@@ -16,7 +16,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.3",
+        "php": ">=7.4",
         "symfony/validator": "^v4.4.13|^v5.1.5",
         "symfony/http-foundation": "^v4.4.13|^v5.1.5"
     },
