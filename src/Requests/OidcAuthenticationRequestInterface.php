@@ -9,8 +9,20 @@ namespace HalloVerden\Contracts\Oidc\Requests;
  * @package HalloVerden\Contracts\Oidc\Requests
  *
  * @method string|null getCodeVerifier()
+ * @method self setPrompt(?string $prompt)
  */
 interface OidcAuthenticationRequestInterface {
+  const PROMPT_NONE = 'none';
+  const PROMPT_LOGIN = 'login';
+  const PROMPT_CONSENT = 'consent';
+  const PROMPT_SELECT_ACCOUNT = 'select_account';
+
+  const VALID_PROMPTS = [
+    self::PROMPT_NONE,
+    self::PROMPT_LOGIN,
+    self::PROMPT_CONSENT,
+    self::PROMPT_SELECT_ACCOUNT,
+  ];
 
   /**
    * @return string
